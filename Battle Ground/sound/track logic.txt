@@ -1,0 +1,17 @@
+mainTankX,mainTankY,currentTurpos
+
+tank(mainTankX,mainTankY, currentTurpos)
+>> draw circle [turpos]
+>> draw reck [tank]
+>> draw circle [wheel]
+>> return possibleTurrets[currentTurpos]
+
+gun = tank
+fireShell(gun, mainTankX,mainTankY,currentTurpos)
+>> print(gun[0],gun[1])
+
+
+
+
+
+
